@@ -1,0 +1,18 @@
+.container {
+    display:grid;
+    grid-template-columns: repeat(16,30px);
+    grid-template-rows: repeat(16,30px);
+    grid-gap:3px;
+    justify-content: center;
+
+}
+div {
+    border:1px solid;
+    background-color:pink;
+    color:blue;
+    
+}
+
+.cell {
+    background-color:white;
+}
